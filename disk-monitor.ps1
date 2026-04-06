@@ -5,7 +5,7 @@
 $config = @{
     ThresholdGB = 30
     GrowthAlertGB = 10      # alert if usage grows this much since last check
-    CheckIntervalMin = 60   # check every N minutes
+    CheckIntervalMin = 1    # check every N minutes
     StateFile = "$env:LOCALAPPDATA\disk-monitor-state.json"
 }
 
